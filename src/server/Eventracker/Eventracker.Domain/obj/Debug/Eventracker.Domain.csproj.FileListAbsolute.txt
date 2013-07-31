@@ -1,0 +1,5 @@
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Domain\bin\Debug\Eventracker.Domain.dll
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Domain\bin\Debug\Eventracker.Domain.pdb
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Domain\obj\Debug\Eventracker.Domain.rewritten
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Domain\obj\Debug\Eventracker.Domain.dll
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Domain\obj\Debug\Eventracker.Domain.pdb

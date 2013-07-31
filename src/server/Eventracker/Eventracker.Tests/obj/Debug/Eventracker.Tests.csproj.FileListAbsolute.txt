@@ -1,0 +1,7 @@
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\bin\Debug\Eventracker.Tests.dll
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\bin\Debug\Eventracker.Tests.pdb
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\bin\Debug\Eventracker.Domain.dll
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\bin\Debug\Eventracker.Domain.pdb
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\obj\Debug\Eventracker.Tests.csprojResolveAssemblyReference.cache
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\obj\Debug\Eventracker.Tests.dll
+C:\Development\repository\andrebaltieri\eventracker\src\server\Eventracker\Eventracker.Tests\obj\Debug\Eventracker.Tests.pdb
