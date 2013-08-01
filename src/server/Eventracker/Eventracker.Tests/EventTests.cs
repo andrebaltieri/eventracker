@@ -48,6 +48,13 @@ namespace Eventracker.Tests
             var evnt = new Event("Mobile Day 2013", DateTime.Now, DateTime.Now.AddHours(1), 50, 19.99);
             Assert.AreEqual(evnt.Tickets.Count, 0);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void O_valor__base_deve_ser_maior_que_zero()
+        {
+            var evnt = new Event("Mobile Day 2013", DateTime.Now.AddDays(1), DateTime.Now, 50, 0);
+        }
     }
 
     [TestClass]
@@ -68,7 +75,7 @@ namespace Eventracker.Tests
             int avaliableTickets = 7;
             Event evnt = new Event("Mobile Day 2013", DateTime.Now, DateTime.Now.AddHours(1), avaliableTickets, 19.99);
             for (int i = 0; i <= avaliableTickets; i++)
-                evnt.AddTicket(new Ticket());
+                evnt.AddTicket(new Ticket(new Attendee("André Baltieri", "andre.baltieri@sismat.com.br"), evnt));
         }
     }
 }

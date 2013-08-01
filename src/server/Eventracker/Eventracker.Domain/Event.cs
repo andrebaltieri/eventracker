@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eventracker.Domain
 {
@@ -13,10 +11,11 @@ namespace Eventracker.Domain
         {
             Contract.Requires<ArgumentNullException>(!String.IsNullOrEmpty(title), "O título é obrigatório.");
             Contract.Requires<ArgumentOutOfRangeException>(title.Length > 3, "O título deve conter pelo menos 3 caracteres.");
-            Contract.Requires<ArgumentOutOfRangeException>(startDate >= DateTime.Now, "A data de início deve estar no futuro.");
+            Contract.Requires<ArgumentOutOfRangeException>(startDate >= DateTime.Now.AddMinutes(-1), "A data de início deve estar no futuro.");
             Contract.Requires<ArgumentOutOfRangeException>(endDate > startDate, "A data de término deve ser maior que a data de início.");
             Contract.Requires<ArgumentOutOfRangeException>(avaliableTickets >=5, "Um evento deve iniciar com pelo menos 3 tickets a venda.");
-            
+            Contract.Requires<ArgumentOutOfRangeException>(basePrice > 0, "O valor base do evento deve ser maior que zero");
+
             this.Title = title;
             this.StartDate = startDate;
             this.EndDate = EndDate;
